@@ -32,39 +32,40 @@ Fonts
 /*********
 Taille 
 *********/
+html{
+  background-color: black;
+}
+
 body {
   background-color: bisque;
   width: 375px;
   min-height: 100vh;
   margin: auto;
-  padding: 0 34px;
-}
-
-html{
-  background-color: black;
+  padding: 34px 34px;
 }
 
 .titre{
   border-left: 47.8px solid rgb(202, 30, 30);
-  color: rgb(202, 30, 30);
-  margin-left: 64.8px;
-  padding: 0 17px;
-}
-
-.auteur{
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px; 
-}
-
-h1 {
   font-family: "Poppins", sans-serif;  
   font-weight: 900;
   font-style: normal;
+  color: rgb(202, 30, 30);
+  margin-left: 64.8px;
+  margin-top: 34px;
+  padding-left: 17px;
+}
+
+h1 {
   font-size: 53px;
   line-height: 90.7px;
 }
+
+.auteur{
+  font-size: 23px; 
+  padding-top: 184px;
+  line-height: 17px;
+}
+
 
 p {
 
