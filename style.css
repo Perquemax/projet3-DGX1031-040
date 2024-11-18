@@ -44,28 +44,67 @@ body {
   padding: 34px 34px;
 }
 
+/*********
+margin clockwise from top 
+*********/
 .titre{
   border-left: 47.8px solid rgb(202, 30, 30);
   font-family: "Poppins", sans-serif;  
   font-weight: 900;
   font-style: normal;
   color: rgb(202, 30, 30);
-  margin-left: 64.8px;
-  margin-top: 34px;
+  margin: 34px 34px 68px 64.8px;
   padding-left: 17px;
 }
 
-h1 {
+/*********
+Tout les h1 dans la classe titre 
+*********/
+.titre h1 {
   font-size: 53px;
   line-height: 90.7px;
 }
 
 .auteur{
-  font-size: 23px; 
-  padding-top: 184px;
+  font-size: 20px; 
+  margin-top: 184px;
   line-height: 17px;
 }
 
+.texte{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;  
+  line-height: 20px;
+}
+
+/*********
+First letter
+*********/
+.texte p::first-letter{
+  font-size: 70px;
+  color:rgb(202, 30, 30);
+  margin-right: 6px;
+  float: left;
+  line-height: 60px;
+} 
+
+.texte p{
+  margin-bottom: 34px;
+  text-wrap: pretty;
+  hyphens: auto;
+}
+
+.texte p:nth-child(odd){
+  margin-right: 120px;
+}
+
+.texte p:nth-child(even){
+  border-left: 47.8px solid rgb(202, 30, 30);
+  padding-left: 17px;
+  margin-left: 64.8px;
+}
 
 p {
 
