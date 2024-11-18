@@ -45,8 +45,8 @@ html{
 }
 
 .titre{
-  border-left: 47.8px solid red;
-  color: red;
+  border-left: 47.8px solid rgb(202, 30, 30);
+  color: rgb(202, 30, 30);
   margin-left: 64.8px;
   padding: 0 17px;
 }
