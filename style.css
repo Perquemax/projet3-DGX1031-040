@@ -96,6 +96,12 @@ First letter
   hyphens: auto;
 }
 
+.texte br{
+  margin-bottom: 17px;
+  display: block;
+  content: "";
+}
+
 .texte p:nth-child(odd){
   margin-right: 120px;
 }
