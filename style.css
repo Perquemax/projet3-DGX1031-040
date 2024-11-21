@@ -37,7 +37,7 @@ html{
 }
 
 body {
-  background-color: bisque;
+  background-color: rgb(223, 207, 189);
   width: 375px;
   min-height: 100vh;
   margin: auto;
@@ -84,7 +84,7 @@ First letter
 *********/
 .texte p::first-letter{
   font-size: 70px;
-  color:rgb(202, 30, 30);
+  color:rgb(0, 0, 0);
   margin-right: 6px;
   float: left;
   line-height: 60px;
@@ -102,11 +102,11 @@ First letter
   content: "";
 }
 
-.texte p:nth-child(odd){
+.pgauche{
   margin-right: 120px;
 }
 
-.texte p:nth-child(even){
+.pdroite{
   border-left: 47.8px solid rgb(202, 30, 30);
   padding-left: 17px;
   margin-left: 64.8px;
