@@ -77,7 +77,7 @@ body {
 margin clockwise from top 
 *********/
 .header{
-  background-color: rgb(203, 19, 209);;
+  background-color: rgb(203, 19, 209);
 }
 
 .titre{
@@ -122,7 +122,7 @@ Animation titre
 }
 
 /*********
-Animation titre
+Animation textes
 *********/
 .scroll2{
   font-family: "Poppins", sans-serif;
@@ -151,6 +151,20 @@ Animation titre
   100% { transform: translate(-100%, 0); }
 }
 
+.scroll2 {
+  background: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: rgb(203, 19, 209);}
+  to {background-color: rgb(234, 255, 0);}
+}
+
+.scroll2 p:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
 /*********
 Tout les h1 dans la classe titre 
 *********/
@@ -247,3 +261,4 @@ a svg{
   background-color: #555;
   color: white;
 }
+
