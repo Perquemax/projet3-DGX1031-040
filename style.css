@@ -30,44 +30,63 @@ Fonts
 }
 
 /*********
-Taille 
+Taille body
 *********/
 html{
   background-color: black;
 }
 
 body {
-  background-color: rgb(36, 30, 30);
+  background-color: rgb(2, 6, 41);
   width: 375px;
   min-height: 100vh;
   margin: auto;
-  padding: 34px 34px;
 }
 
 /*********
 margin clockwise from top 
 *********/
+.header{
+  background-color: rgb(203, 19, 209);;
+}
+
 .titre{
-  border-left: 47.8px solid rgb(202, 30, 30);
+  border-left: 47.8px solid rgb(2, 6, 41);
   font-family: "Poppins", sans-serif;  
   font-weight: 900;
   font-style: normal;
-  color: rgb(202, 30, 30);
-  margin: 34px 34px 68px 64.8px;
+  color: rgb(2, 6, 41);
+  margin: 0px 34px 68px 64.8px;
+  padding: 10px 0px;
   padding-left: 17px;
 }
 
+/*********
+Animation titre
+*********/
 .scroll{
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 200px;
+  font-size: 50px;
   text-transform: uppercase;
+  word-spacing: 10px;
+  white-space: nowrap;
   position: relative;
-  height: 300px;
-  background-color: rgb(0, 255, 0);
-  width :375px;
-    direction="down"
+  background-color: rgb(203, 19, 209);
+  padding: 17px;
+  margin: 34px 0 68px 0;
+}
+
+.scroll p{
+  display: inline-block;
+  padding-left: 100%;
+  animation: TittleScroll 10s linear infinite;
+}
+
+@keyframes TittleScroll {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
 }
 
 /*********
@@ -99,12 +118,12 @@ First letter
 *********/
 .texte p::first-letter{
   margin-right: 0px;
-  float: left;
-  color: rgb(0, 255, 0);
+  color: rgb(255, 255, 255);
+  font-size: 100%;
 } 
 
 .texte p{
-  margin-bottom: 34px;
+  margin-bottom: 68px;
   hyphens: auto;
 }
 
@@ -114,14 +133,12 @@ First letter
   content: "";
 }
 
-
 .pgauche{
   margin-right: 34px;
 }
 
-
 .pdroite{
-  border-left: 47.8px solid rgb(255, 0, 0);
+  border-left: 47.8px solid  rgb(203, 19, 209);
   padding-left: 17px;
   margin-left: 64.8px;
 }
