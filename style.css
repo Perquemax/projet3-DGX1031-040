@@ -28,7 +28,37 @@ Fonts
   font-weight: 400;
   font-style: italic;
 }
+/*********
+Navbar
+*********/
+.NavBar ul {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  list-style-type: none;
+  margin: 0 0 24px 0px;
+  padding: 0;
+  width: 200px;
+  background-color: #ffffff;
+}
 
+.NavBar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.NavBar li a.active {
+  background-color: #ff00c8;
+  color:rgb(2, 6, 41);
+}
+
+.NavBar li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
 /*********
 Taille body
 *********/
@@ -69,6 +99,7 @@ Animation titre
   font-weight: 900;
   font-style: normal;
   font-size: 50px;
+  color: rgb(2, 6, 41);
   text-transform: uppercase;
   word-spacing: 10px;
   white-space: nowrap;
@@ -76,6 +107,7 @@ Animation titre
   background-color: rgb(203, 19, 209);
   padding: 17px;
   margin: 34px 0 68px 0;
+  overflow: hidden;
 }
 
 .scroll p{
@@ -107,7 +139,7 @@ Tout les h1 dans la classe titre
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size:30px;
+  font-size:25px;
   line-height: 40px;
   color: rgb(203, 19, 209);
   word-break: break-word;
@@ -116,7 +148,13 @@ Tout les h1 dans la classe titre
 /*********
 First letter
 *********/
-.texte p::first-letter{
+.texte .pgauche::first-letter{
+  margin-right: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 100%;
+} 
+
+.texte .pdroite::first-letter{
   margin-right: 0px;
   color: rgb(255, 255, 255);
   font-size: 100%;
@@ -138,8 +176,28 @@ First letter
 }
 
 .pdroite{
-  border-left: 47.8px solid  rgb(203, 19, 209);
+  border-left: 34px solid  rgb(203, 19, 209);
   padding-left: 17px;
-  margin-left: 64.8px;
+  margin-left: 40px;
 }
 
+/*********
+Lien
+*********/
+.lien a{
+  background-color: rgb(255, 0, 221);
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: rgb(0, 255, 34);
+}
+
+lien a:hover {
+  color: rgb(203, 19, 209);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a svg{
+  height: 25px;
+  fill: rgb(0, 255, 34);
+}
