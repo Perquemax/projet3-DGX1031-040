@@ -154,7 +154,7 @@ First letter
   font-size: 100%;
 } 
 
-.texte .pdroite::first-letter{
+.texte p::first-letter{
   margin-right: 0px;
   color: rgb(255, 255, 255);
   font-size: 100%;
@@ -198,6 +198,6 @@ lien a:hover {
 }
 
 a svg{
-  height: 25px;
+  height: 20px;
   fill: rgb(0, 255, 34);
 }
