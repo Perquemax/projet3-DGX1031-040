@@ -122,6 +122,36 @@ Animation titre
 }
 
 /*********
+Animation titre
+*********/
+.scroll2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(2, 6, 41);
+  text-transform: uppercase;
+  word-spacing: 10px;
+  white-space: nowrap;
+  position: relative;
+  background-color: rgb(203, 19, 209);
+  padding: 17px;
+  margin: 34px 0 68px 0;
+  overflow: hidden;
+}
+
+.scroll2 p{
+  display: inline-block;
+  padding-left: 100%;
+  animation: TittleScroll 50s linear infinite;
+}
+
+@keyframes TittleScroll {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+/*********
 Tout les h1 dans la classe titre 
 *********/
 .titre h1 {
