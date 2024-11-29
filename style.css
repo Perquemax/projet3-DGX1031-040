@@ -1,6 +1,6 @@
-/*********
+/***************************
 Reset 
-*********/
+***************************/
 * {
   padding: 0;
   margin: 0;
@@ -8,9 +8,9 @@ Reset
   text-decoration: none;
 }
 
-/*********
+/***************************
 Fonts 
-*********/
+***************************/
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -28,9 +28,9 @@ Fonts
   font-weight: 400;
   font-style: italic;
 }
-/*********
+/***************************
 Navbar
-*********/
+***************************/
 .NavBar ul {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -59,9 +59,9 @@ Navbar
   background-color: #555;
   color: white;
 }
-/*********
+/***************************
 Taille body
-*********/
+***************************/
 html{
   background-color: black;
 }
@@ -73,9 +73,9 @@ body {
   margin: auto;
 }
 
-/*********
+/***************************
 margin clockwise from top 
-*********/
+***************************/
 .header{
   background-color: rgb(203, 19, 209);
 }
@@ -91,9 +91,9 @@ margin clockwise from top
   padding-left: 17px;
 }
 
-/*********
+/***************************
 Animation titre
-*********/
+***************************/
 .scroll{
   font-family: "Poppins", sans-serif;
   font-weight: 900;
@@ -121,9 +121,9 @@ Animation titre
   100% { transform: translate(-100%, 0); }
 }
 
-/*********
-Animation textes
-*********/
+/***************************
+Animation textes Page 2
+***************************/
 .scroll2{
   font-family: "Poppins", sans-serif;
   font-weight: 900;
@@ -165,9 +165,9 @@ Animation textes
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
-/*********
+/***************************
 Tout les h1 dans la classe titre 
-*********/
+***************************/
 .titre h1 {
   font-size: 53px;
   line-height: 90.7px;
@@ -183,15 +183,31 @@ Tout les h1 dans la classe titre
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size:25px;
+  font-size: 25px;
   line-height: 40px;
   color: rgb(203, 19, 209);
   word-break: break-word;
 }
 
-/*********
+
+/*********************************************
+Tout les h1 dans la classe titre 
+
+.texte{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 130px;
+  line-height: 170px;
+  color: rgb(203, 19, 209);
+  word-break: break-word;
+}
+*********************************************/
+
+
+/***************************
 First letter
-*********/
+***************************/
 .texte .pgauche::first-letter{
   margin-right: 0px;
   color: rgb(255, 255, 255);
@@ -225,9 +241,9 @@ First letter
   margin-left: 40px;
 }
 
-/*********
+/***************************
 Lien
-*********/
+***************************/
 a svg{
   height: 20px;
   fill: rgb(2, 6, 41);
