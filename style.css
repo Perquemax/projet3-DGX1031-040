@@ -72,11 +72,11 @@ iframe{
 /***************************
 Taille body
 ***************************/
-html{
+.index{
   background-color: black;
 }
 
-body .index{
+.index body{
   background-color: rgb(2, 6, 41);
   width: 375px;
   min-height: 100vh;
