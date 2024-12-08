@@ -171,12 +171,19 @@ Animation textes Page 2
 
 .scroll2 {
   background: red;
-  animation: mymove 5s infinite;
+  animation: mymove 15s infinite;
 }
-
+/***************************
 @keyframes mymove {
   from {background-color: rgb(203, 19, 209);}
   to {background-color: rgb(234, 255, 0);}
+}
+***************************/
+
+@keyframes mymove {
+  0%   {background-color: rgb(203, 19, 209);}
+  50%  {background-color: rgb(234, 255, 0);}
+  100% {background-color: rgb(203, 19, 209);}
 }
 
 .scroll2 p:hover {
