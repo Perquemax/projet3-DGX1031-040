@@ -29,36 +29,48 @@ Fonts
   font-style: italic;
 }
 
+.libre-caslon-text-regular {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-caslon-text-bold {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-caslon-text-regular-italic {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 /***************************
 Navbar
 ***************************/
-.NavBar ul {
+.NavBar ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
   font-size: 15px;
   list-style-type: none;
-  margin: 0 0 24px 0px;
-  padding: 0;
-  width: 200px;
-  background-color: #ffffff;
+  margin: 24px 0 24px 0px;
+  height: 39px;
 }
 
-.NavBar li a {
-  display: block;
+.NavBar li{
+  display: flex;
+  align-items: center;
   color: #000;
-  padding: 8px 16px;
+  padding: 0px 16px;
   text-decoration: none;
-}
-
-.NavBar li a.active {
-  background-color: #ff00c8;
-  color:rgb(2, 6, 41);
-}
-
-.NavBar li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+  height: 39px;
+  background-color: #ffffff;
 }
 
 /***************************
@@ -71,7 +83,7 @@ iframe{
 }
 
 /***************************
-Taille body
+Taille body INDEX
 ***************************/
 .index{
   background-color: black;
@@ -101,8 +113,8 @@ margin clockwise from top
 
 .titre{
   border-left: 47.8px solid rgb(2, 6, 41);
-  font-family: "Poppins", sans-serif;  
-  font-weight: 900;
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 700;
   font-style: normal;
   color: rgb(2, 6, 41);
   margin: 0px 34px 68px 64.8px;
@@ -197,7 +209,7 @@ Animation textes Page 2
 Tout les h1 dans la classe titre 
 ***************************/
 .titre h1 {
-  font-size: 53px;
+  font-size: 60px;
   line-height: 90.7px;
 }
 
@@ -230,8 +242,6 @@ Tout les h1 dans la classe titre
   color: rgb(203, 19, 209);
   word-break: break-word;
 }
-
-
 
 /***************************
 First letter
