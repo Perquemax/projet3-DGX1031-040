@@ -160,6 +160,7 @@ Animation textes Page 2
   font-weight: 900;
   font-style: normal;
   font-size: 50px;
+  text-wrap: pretty;
   color: rgb(2, 6, 41);
   text-transform: uppercase;
   word-spacing: 10px;
