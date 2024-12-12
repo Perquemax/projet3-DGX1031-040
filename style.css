@@ -48,7 +48,7 @@ Fonts
 }
 
 /***************************
-bouton
+bbouton
 ***************************/
 #myBtn {
   display: none;
@@ -75,6 +75,8 @@ bouton
 /***************************
 Navbar
 ***************************/
+
+
 ul {
   list-style-type: none;
   margin: 0 0 10px 0;
