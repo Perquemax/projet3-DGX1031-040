@@ -48,7 +48,7 @@ Fonts
 }
 
 /***************************
-Navbar
+bouton
 ***************************/
 #myBtn {
   display: none;
@@ -65,7 +65,7 @@ Navbar
   padding: 15px;
   border-radius: 4px;
   border: 5px solid;
-  border-color: #ffffff;
+  border-color: #ffffff; 
 }
 
 #myBtn:hover {
