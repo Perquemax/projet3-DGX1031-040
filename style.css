@@ -80,47 +80,12 @@ li a.icone{
 
 li a.bouton:hover:not(.active) {
   background-color: #111;
-  color: ;
 }
 
 .active.bouton {
   background-color: rgb(203, 19, 209);
   color: #ffffff
 };
-
-/***************************
-.NavBar ul{
-  display: block;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  font-size: 15px;
-  list-style-type: none;
-  margin: 24px 0 24px 0px;
-  height: 39px;
-  overflow: hidden;
-}
-
-.NavBar li{
-  display: flex;
-  align-items: center;
-  color: #000;
-  text-decoration: none;
-  height: 39px;
-  background-color: #ffffff;
-}
-
-a.active {
-  background-color: rgb(203, 19, 209);
-  color: rgb(255, 255, 255);
-  height: 39px;
-  leig: 70px;
-  padding: 0px 16px;
-  display: flex;
-  align-items: center;
-}
 
 /***************************
 IFRAME PDF INDEX
@@ -152,7 +117,11 @@ Taille body INDEX
   min-height: 100vh;
   margin: auto;
   opacity: 0.8;
-  background-image:  linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #f1efe3 1px);
+
+}
+
+.papier{
+  background-image:  linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #ffffff 1px);
   background-size: 20px 20px;
 }
 
@@ -277,7 +246,11 @@ Animation textes Page 2
   
   background-color: white;
   padding: 0 18px;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 15px;;
 }
 
 .panel p {
@@ -345,14 +318,12 @@ First letter
 ***************************/
 .texte .pgauche::first-letter{
   margin-right: 0px;
-  color: rgb(255, 255, 255);
-  font-size: 100%;
+  font-size: 200%;
 } 
 
 .texte p::first-letter{
   margin-right: 0px;
-  color: rgb(41, 17, 255);
-  font-size: 150%;
+  font-size: 250%;
 } 
 
 .texte p{
