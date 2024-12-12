@@ -121,7 +121,7 @@ Taille body INDEX
 }
 
 .papier{
-  background-image:  linear-gradient(#c0c1db 1px, transparent 1px), linear-gradient(to right, #7f84df 1px, #ffffff 1px);
+  background-image:  linear-gradient(#e3e3ec 1px, transparent 1px), linear-gradient(to right, #b7b8d8 1px, #ffffff 1px);
   background-size: 20px 20px;
 }
 
@@ -294,7 +294,7 @@ Tout les h1 dans la classe titre
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 40px;
   color: rgb(203, 19, 209);
   word-break: break-word;
