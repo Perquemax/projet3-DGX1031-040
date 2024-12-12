@@ -148,10 +148,12 @@ Taille body INDEX
 }
 
 .index body{
-  background-color: rgb(216, 196, 196);
   width: 375px;
   min-height: 100vh;
   margin: auto;
+  opacity: 0.8;
+  background-image:  linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #f1efe3 1px);
+  background-size: 20px 20px;
 }
 
 .Page2{
@@ -165,9 +167,6 @@ Taille body INDEX
 /***************************
 margin clockwise from top 
 ***************************/
-.header{
-  background-color: rgb(203, 19, 209);
-}
 
 .titre{
   border-left: 47.8px solid rgb(2, 6, 41);
@@ -336,9 +335,8 @@ Tout les h1 dans la classe titre
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 130px;
-  line-height: 170px;
-  color: rgb(203, 19, 209);
+  font-size: 15px;
+  color: rgb(29, 29, 29);
   word-break: break-word;
 }
 
@@ -353,8 +351,8 @@ First letter
 
 .texte p::first-letter{
   margin-right: 0px;
-  color: rgb(255, 255, 255);
-  font-size: 100%;
+  color: rgb(41, 17, 255);
+  font-size: 150%;
 } 
 
 .texte p{
@@ -373,7 +371,7 @@ First letter
 }
 
 .pdroite{
-  border-left: 34px solid  rgb(203, 19, 209);
+  border-left: 34px solid  rgb(2, 6, 41);
   padding-left: 17px;
   margin-left: 40px;
 }
