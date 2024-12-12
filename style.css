@@ -52,7 +52,7 @@ Navbar
 ***************************/
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 10px 0;
   padding: 0;
   overflow: hidden;
   background-color: #a2fa00;
@@ -80,7 +80,7 @@ li a.icone{
 
 li a.bouton:hover:not(.active) {
   background-color: #111;
-  color: #a2fa00;
+  color: ;
 }
 
 .active.bouton {
